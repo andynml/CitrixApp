@@ -1,1 +1,4 @@
-# demo - Citrix App
+# Demo - Citrix App
+
+http://dropin.azurewebsites.net/
+
