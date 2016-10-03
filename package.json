@@ -1,0 +1,54 @@
+{
+  "name": "citrix-workspace",
+  "version": "0.0.1",
+  "description": "Citrix puzzle",
+  "main": "app.jsx",
+  "author": "andy nguyen",
+  "license": "MIT",
+  "dependencies": {
+    "bloodhound-js": "^1.2.1",
+    "react-bootstrap-typeahead": "^0.9.2"
+  },
+  "devDependencies": {
+    "babel-jest": "^5.3.0",
+    "babel-polyfill": "^6.16.0",
+    "browserify": "^13.1.0",
+    "classnames": "^2.1.1",
+    "events": "^1.1.1",
+    "flux": "^2.0.3",
+    "gulp": "^3.9.1",
+    "gulp-clean-css": "^2.0.12",
+    "gulp-concat": "^2.6.0",
+    "gulp-less": "^3.1.0",
+    "gulp-sourcemaps": "^1.6.0",
+    "jest": "^15.1.1",
+    "jest-cli": "*",
+    "jquery": "^3.1.1",
+    "key-mirror": "^1.0.1",
+    "lodash.throttle": "^3.0.2",
+    "mark.js": "github:julmot/mark.js",
+    "object-assign": "^2.0.0",
+    "react": "^15.3.2",
+    "react-addons-test-utils": "~0.14.0",
+    "react-bootstrap-typeahead": "^0.9.2",
+    "react-dom": "^15.3.2",
+    "react-test-utils": "0.0.1",
+    "react-typeahead-component": "^0.9.0",
+    "reactify": "^1.1.1",
+    "underscore": "^1.8.3",
+    "vinyl-source-stream": "^1.1.0"
+  },
+  "jest": {
+    "unmockedModulePathPatterns": [
+      "/node_modules/react",
+      "/node_modules/react-dom",
+      "/node_modules/react-addons-test-utils"
+    ]
+  },
+  "scripts": {
+    "test": "jest"
+  },
+  "engines": {
+    "node": ">=0.10.0"
+  }
+}
